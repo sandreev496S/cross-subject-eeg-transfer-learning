@@ -1,0 +1,3 @@
+model,mean_accuracy,std_accuracy
+Baseline Riemannian,0.5481481481481482,0.08748897637790902
+Aligned Riemannian,0.5975308641975309,0.11517268004049047
