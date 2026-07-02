@@ -84,8 +84,3 @@ Steven Andreev
 B.S. Cognitive and Behavioral Neuroscience  
 Loyola University Chicago
 
-## Academic Report
-
-A full APA-style technical report documenting the methodology, experiments, statistical analysis, and results is included in this repository.
-
-[Download the full APA report](reports/APA7_Full_Length_EEG_Transfer_Report.pdf)
