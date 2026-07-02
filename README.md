@@ -36,10 +36,6 @@ Four models were evaluated:
 | Simple EEGNet | Lightweight EEGNet-inspired convolutional neural network |
 | RCSP + Riemannian Fusion | Regularized CSP features concatenated with Riemannian tangent space features and classified with a linear SVM |
 
-## Pipeline
-
-![Methodology Pipeline](figures/methodology_pipeline.png)
-
 ## Results
 
 | Model | Mean LOSO Accuracy | Standard Deviation |
@@ -67,12 +63,6 @@ The RCSP + Riemannian fusion model achieved the best cross-subject performance, 
 
 The results suggest that geometric methods are better suited than a simple deep learning baseline for small-sample cross-subject EEG transfer learning. Subject-specific covariance alignment improved generalization, indicating that inter-subject covariance shifts are a major source of performance degradation. The best performance was achieved by combining discriminative spatial filtering with Riemannian tangent space features.
 
-## Academic Report
-
-A full APA-style technical report is included here:
-
-[APA Report PDF](reports/APA7_Full_Length_EEG_Transfer_Report.pdf)
-
 ## Technologies Used
 
 - Python
@@ -99,4 +89,3 @@ Loyola University Chicago
 A full APA-style technical report documenting the methodology, experiments, statistical analysis, and results is included in this repository.
 
 [Download the full APA report](reports/APA7_Full_Length_EEG_Transfer_Report.pdf)
-
